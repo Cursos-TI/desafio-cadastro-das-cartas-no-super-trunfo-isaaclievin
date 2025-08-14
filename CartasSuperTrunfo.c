@@ -1,6 +1,7 @@
 #include <stdio.h>
     
 int main() {
+    //DECLAREI AS VARIÁVEIS
     char estado1;
     char estado2[10];
     char codcarta1[10];
@@ -15,6 +16,7 @@ int main() {
     float pib2;
     int ptur1;
     int ptur2;
+    //SOLICITEI A ENTRADA DE DADOS POR PARTE DO USUÁRIO COM USO DO TECLADO E SALVEI OS DADOS (CARTA 1)
     printf("Digite uma letra de A a H para representar o Estado da Carta 1: \n");
     scanf("%c", &estado1);
     printf("Digite o Código para Carta 1 (Ex: A01, onde A é a letra que representa o Estado da Carta 1): \n");
@@ -29,6 +31,7 @@ int main() {
     scanf("%f", &pib1);
     printf("Digite a quantidade de Pontos Turísticos existentes na Cidade da Carta 1: \n");
     scanf("%d", &ptur1);
+    //SOLICITEI A ENTRADA DE DADOS POR PARTE DO USUÁRIO COM USO DO TECLADO E SALVEI OS DADOS (CARTA 2)
     printf("Digite uma letra de A a H para representar o Estado da Carta 2: \n");
     scanf("%s", &estado2);
     printf("Digite o Código para Carta 2 (Ex: A02, onde A é a letra que representa o Estado da Carta 2): \n");
@@ -43,7 +46,7 @@ int main() {
     scanf("%f", &pib2);
     printf("Digite a quantidade de Pontos Turísticos existentes na Cidade da Carta 2: \n");
     scanf("%d", &ptur2);
-    
+    //APRESENTEI AS INFORMAÇÕES SEPARADAS E DESCRITAS (CARTA 1)
     printf("CARTA 1: \n");
     printf("Estado: %c \n", estado1);
     printf("Código da Carta: %s \n", codcarta1);
@@ -52,7 +55,7 @@ int main() {
     printf("Área: %f \n", area1);
     printf("PIB: %f \n", pib1);
     printf("Quantidade de Pontos Turísticos: %d \n", ptur1);
-    
+    //APRESENTEI AS INFORMAÇÕES SEPARADAS E DESCRITAS (CARTA 2)
     printf("CARTA 2: \n");
     printf("Estado: %s \n", estado2);
     printf("Código da Carta: %s \n", codcarta2);
