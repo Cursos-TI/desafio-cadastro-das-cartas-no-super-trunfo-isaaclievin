@@ -2,8 +2,8 @@
     
 int main() {
     //DECLAREI AS VARIÁVEIS
-    char estado1[10];
-    char estado2[10];
+    char estado1[3];
+    char estado2[3];
     char codcarta1[10];
     char codcarta2[10];
     char cidade1[10];
@@ -18,9 +18,9 @@ int main() {
     int ptur2;
     //SOLICITEI A ENTRADA DE DADOS POR PARTE DO USUÁRIO COM USO DO TECLADO E SALVEI OS DADOS (CARTA 1)
     printf("Digite uma letra de A a H para representar o Estado da Carta 1: \n");
-    scanf("%s", estado1);
+    scanf("%2s", estado1);
     printf("Digite o Código para Carta 1 (Ex: A01, onde A é a letra que representa o Estado da Carta 1): \n");
-    scanf("%s", codcarta1);
+    scanf(" %s", codcarta1);
     printf("Digite a Cidade da Carta 1: \n");
     scanf("%s", cidade1);
     printf("Digite a População da Cidade da Carta 1: \n");
@@ -33,7 +33,7 @@ int main() {
     scanf("%d", &ptur1);
     //SOLICITEI A ENTRADA DE DADOS POR PARTE DO USUÁRIO COM USO DO TECLADO E SALVEI OS DADOS (CARTA 2)
     printf("Digite uma letra de A a H para representar o Estado da Carta 2: \n");
-    scanf("%s", estado2);
+    scanf(" %2s", estado2);
     printf("Digite o Código para Carta 2 (Ex: A02, onde A é a letra que representa o Estado da Carta 2): \n");
     scanf("%s", codcarta2);
     printf("Digite a Cidade da Carta 2: \n");
